@@ -3,41 +3,58 @@ navbar_entries:
     url: /index
   - title: about
     url: about
+  - title: cv
+    url:
 
 project_entries:
-  - title: Project 1
-    url: /project1
-    desc: This is an example project, configured in _data/home.yml
+  - title: Personal Website
+    url: proj04
+    desc: Jekyll, Github Pages, Cloudflare
+  - title: Book Scraper for Markdown Template
+    url: proj03
+    desc: Python, Selenium
+  - title: Arduino Controlled LCD Display
+    url: proj02
+    desc: Arduino IDE, C
+  - title: Masters Nationals Scheduling Website
+    url: proj01
+    desc: SvelteKit, Typescript, Firebase
+  - title: Book Scraper for Notion Page
+    url: proj00
+    desc: Playwright, Notion API, Javascript
 
 courses:
-  - title: Introduction to Computer Systems
-    tech: C, Assembly
-    desc: Using C at the system level. Built a compiler for J using C.
-  - title: Market and Social Systems on the Internet
-    tech: Java
-    desc: Used Java to webscrap Wikipedia to answer the question--Does every Wiki article eventually tie back to philosophy? 
-          (The answer is no.)
-  - title: Wireless Communications for Mobile Networks and Internet of Things
-    tech: C++, Wireshark, NS3 Simulation
-    desc: 
-  - title: Database and Information Systems
-    tech: SQL
+  - title: Wireless Mobile Networks & IoT
+    url: cis5490
+    desc: C++, Wireshark, NS3 Simulation
+  - title: Database & Information Systems
+    url: cis4500
+    desc: SQL
+  - title: Computer & Network Security
+    url: cis4510
     desc:
-  - title: Computer Organization and Design
-    tech: Verilog, FPGAs, Assembly
-    desc:
-  - title: Computer and Network Security
-    tech: 
-    desc:
-  - title: Intro To Comp Prog, Prog Lang & Tech I, Prog Lang & Tech II
-    tech: Java
-    desc: Brickbreaker, Checkers, Algorithms
+  - title: Social Systems on the Internet
+    url: nets1500
+    desc: Java, Webscrapping, Networking
+  - title: Intro to Computer Systems
+    url: cis2400
+    desc: C, Assembly
+  - title: Computer Organization & Design
+    url: cis4710
+    desc: Verilog, FPGAs
+  - title: Prog Lang & Tech (I-III)
+    url: cis1200
+    desc: Java
+  - title: Quantitative Analysis
+    url: anth3454
+    desc: SPSS
+  - title: Senior Capstone
+    url: cis4980
+    desc: TCP
 
 
 footer_entries:
-
   - title: github
     url: https://github.com/ivyngu
-
   - title: linkedin
     url: https://linkedin.com/in/ivyngu

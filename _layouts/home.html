@@ -16,17 +16,23 @@ layout: default
 
 {{ content }}
 
+{% if site.theme_config.show_education == true %}
+  <h2>{{ site.theme_config.home.title_education }}</h2>
+  <p> <b>{{ site.theme_config.home.title_college }}</b>, {{ site.theme_config.home.title_location }}</p>
+  <p> {{ site.theme_config.home.title_major }}, {{ site.theme_config.home.title_minor }} </p>
+  <p> {{ site.theme_config.home.title_school }} </p>
+  <p> {{ site.theme_config.home.title_dates }} </p>
+  <p> GPA: {{ site.theme_config.home.title_gpa }} </p>
+{% endif %}
+
+{% if site.theme_config.show_courses == true %}
+  <h2> {{ site.theme_config.home.title_courses }} </h2>
+  {% include card_list.html collection=site.data.home.courses %}
+{% endif %}
+
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
   {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
-
-{% if site.theme_config.show_education == true %}
-  <h2>{{ site.theme_config.home.title_education }}</h2>
-  <h3> {{ site.theme_config.home.title_college }} </h3>
-  <h3> {{ site.theme_config.home.title_degree }} </h3>
-  <h2> {{ site.theme_config.home.title_courses }} </h2>
-  {% include card_list.html collection=site.data.home.courses %}
 {% endif %}
 
 {% if site.theme_config.show_footer == true %}

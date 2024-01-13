@@ -4,17 +4,6 @@ title: About
 permalink: /about/
 ---
 
-### Education
-
-I am a current undergraduate student at the University of Pennsylvania, Class of 2024. I study Computer Information Systems.
-Some relevant courses I have taken so far:
-- Programming Languages & Tech I, II
-- Mathematical Foundations in Computer Science (Discrete Mathematics)
-- Computer Organization & Design
-- Market & Social Systems on the Internet
-- Introduction to Algorithms
-- Wireless Communications & Mobile Networks
-
 ### Interests
 When it comes to technology, I have found myself immersed in application development, computer architecture, and networking design. My technology journey all started with an introduction course to Java: where I tried my best to understand how Java works as a language, and how the Java compiler differs from other languages, such as C. I found it intriguing to study the differences between how the language interacts at the user interface, compiler, assembly, and machine level. I still find it amazing to this day how we've created such a usable system out of 0s and 1s. 
 

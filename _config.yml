@@ -1,7 +1,7 @@
 title: Ivy Nguyen
 author: Ivy Nguyen
 description: Hi there! 
-# url: https://www.ivyngu.com
+url: ivyng.dev
 
 plugins:
   - jekyll-feed
@@ -14,11 +14,17 @@ theme_config:
   show_projects: true # show projects as cards, add in _data/home.yml
   # options for "home" page
   show_education: true
+  show_courses: true
   home:
     title_projects: Portfolio
     title_education: Education
-    title_college: University of Pennsylvania, Class of 2024
-    title_degree: Bachelor's of Applied Science in Computer Information Systems, Minor in Psychology
+    title_college: University of Pennsylvania
+    title_dates: August 2020 - May 2024
+    title_location: Philadelphia, PA
+    title_major: B.A.S. in Computer Information Systems
+    title_minor: Minor in Psychology
+    title_school: School of Engineering & Applied Science
+    title_gpa: 3.56 / 4.00
     title_courses: Relevant Coursework
   
 sass:
