@@ -1,0 +1,43 @@
+navbar_entries:
+  - title: home
+    url: /index
+  - title: about
+    url: about
+
+project_entries:
+  - title: Project 1
+    url: /project1
+    desc: This is an example project, configured in _data/home.yml
+
+courses:
+  - title: Introduction to Computer Systems
+    tech: C, Assembly
+    desc: Using C at the system level. Built a compiler for J using C.
+  - title: Market and Social Systems on the Internet
+    tech: Java
+    desc: Used Java to webscrap Wikipedia to answer the question--Does every Wiki article eventually tie back to philosophy? 
+          (The answer is no.)
+  - title: Wireless Communications for Mobile Networks and Internet of Things
+    tech: C++, Wireshark, NS3 Simulation
+    desc: 
+  - title: Database and Information Systems
+    tech: SQL
+    desc:
+  - title: Computer Organization and Design
+    tech: Verilog, FPGAs, Assembly
+    desc:
+  - title: Computer and Network Security
+    tech: 
+    desc:
+  - title: Intro To Comp Prog, Prog Lang & Tech I, Prog Lang & Tech II
+    tech: Java
+    desc: Brickbreaker, Checkers, Algorithms
+
+
+footer_entries:
+
+  - title: github
+    url: https://github.com/ivyngu
+
+  - title: linkedin
+    url: https://linkedin.com/in/ivyngu

@@ -1,0 +1,27 @@
+title: Ivy Nguyen
+author: Ivy Nguyen
+description: Hi there! 
+# url: https://www.ivyngu.com
+
+plugins:
+  - jekyll-feed
+
+theme_config:
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: true # show horizontal navbar
+  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_projects: true # show projects as cards, add in _data/home.yml
+  # options for "home" page
+  show_education: true
+  home:
+    title_projects: Portfolio
+    title_education: Education
+    title_college: University of Pennsylvania, Class of 2024
+    title_degree: Bachelor's of Applied Science in Computer Information Systems, Minor in Psychology
+    title_courses: Relevant Coursework
+  
+sass:
+  style: :compressed
+
+
