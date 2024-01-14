@@ -15,18 +15,18 @@ project_entries:
     desc: Python, Selenium
   - title: Arduino Controlled LCD Display
     url: proj02
-    desc: Arduino IDE, C
+    desc: C, Arduino
   - title: Masters Nationals Scheduling Website
     url: proj01
-    desc: SvelteKit, Typescript, Firebase
+    desc: Typescript, SvelteKit, Firebase
   - title: Book Scraper for Notion Page
     url: proj00
-    desc: Playwright, Notion API, Javascript
+    desc: Javascript, Playwright, Notion API
 
 courses:
   - title: Wireless Mobile Networks & IoT
     url: cis5490
-    desc: C++, Wireshark, NS3 Simulation
+    desc: C++, Wireshark, NS3 Simulation, MQTT
   - title: Database & Information Systems
     url: cis4500
     desc: SQL
@@ -35,7 +35,7 @@ courses:
     desc:
   - title: Social Systems on the Internet
     url: nets1500
-    desc: Java, Webscrapping, Networking
+    desc: Java, Webscraping, Networking
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
@@ -50,7 +50,7 @@ courses:
     desc: SPSS
   - title: Senior Capstone
     url: cis4980
-    desc: TCP
+    desc: Wireless Mesh Networks, TCP
 
 
 footer_entries:
