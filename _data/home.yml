@@ -16,8 +16,10 @@ project_entries:
   - title: Arduino Controlled LCD Display
     url: proj02
     desc: C, Arduino
+    highlight: WIP
   - title: Masters Nationals Scheduling Website
     url: proj01
+    highlight: WIP
     desc: Typescript, SvelteKit, Firebase
   - title: Book Scraper for Notion Page
     url: proj00
@@ -30,9 +32,11 @@ courses:
   - title: Database & Information Systems
     url: cis4500
     desc: SQL
+    highlight: WIP
   - title: Computer & Network Security
     url: cis4510
-    desc:
+    desc: 
+    highlight: WIP
   - title: Social Systems on the Internet
     url: nets1500
     desc: Java, Webscraping, Networking
@@ -51,6 +55,7 @@ courses:
   - title: Senior Capstone
     url: cis4980
     desc: Wireless Mesh Networks, TCP
+    highlight: WIP
 
 
 footer_entries:
