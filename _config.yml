@@ -1,6 +1,6 @@
 title: Ivy Nguyen
 author: Ivy Nguyen
-description: Hi there! 
+description: Hi there! I am a current student looking to hone my skills and knowledge in the tech industry. I am open to work in IT and software development. Thank you for visiting my page!
 url: ivyng.dev
 
 plugins:
@@ -27,7 +27,6 @@ theme_config:
     title_gpa: 3.56 / 4.00
     title_courses: Relevant Coursework
   
-sass:
-  style: :compressed
+
 
 

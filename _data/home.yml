@@ -28,7 +28,7 @@ project_entries:
 courses:
   - title: Wireless Mobile Networks & IoT
     url: cis5490
-    desc: C++, Wireshark, NS3 Simulation, MQTT
+    desc: C++, Wireshark, NS3, MQTT, K8
   - title: Database & Information Systems
     url: cis4500
     desc: SQL
