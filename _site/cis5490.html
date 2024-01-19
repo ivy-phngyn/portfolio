@@ -34,7 +34,7 @@
     </li>
   
     <li>
-      <a href="">
+      <a href="/assets/cv.pdf">
         cv
       </a>
       &nbsp;&nbsp;
@@ -47,7 +47,22 @@
 </header>
 
 <h1 class="post-title">Wireless Communications for Mobile Networks & Internet of Things</h1>
+<p>I learned about a lot of technologies within this course. First and foremost, I learned about basic networking, such as the OSI Reference Model, network devices, network IP addressing, and network address translation. Alongside that, I also learned about TCP in depth, including TCP acknowledgement methods, flow control, retransmission, and ideal window size. Besides the IEEE procotol, I learned about 4G LTE, 5G, and 6G plans for evolution. I found the virtualization of networking in 5G to be very cool; expanding upon the idea of virtualizing an operating system (such as a virtual machine) into networking is a great way to improve current networking solutions. Network slicing is one of the coolest technologies I have heard about to this day, and I am glad to have learned about it.
+In addition, I learned about IoT. From LoRaWAN, SigFox, eMTC, and NB-IoT, I explored the various networks that can be used for IoT devices, all of which are unique and can benefit a user given different scenarios.</p>
 
+<p>In order to practice using these technologies and concepts, there were several homeworks spread out throughout the class to help with our understanding.</p>
+
+<p>In <a href="https://github.com/ivyngu/cis5490/tree/main/prj1">Project 1</a>, I had to write code to analyze a pcap file for a TCP session. This gave me experience with using Wireshark and coding in C.</p>
+
+<p>In <a href="https://github.com/ivyngu/cis5490/tree/main/prj2">Project 2</a>, I simulated TCP and UDP traffic over a WiFi connection using NS3. I varied factors for each simulation, as to analyze throughput for each.</p>
+
+<p>In <a href="https://github.com/ivyngu/cis5490/tree/main/prj4">Project 4</a>, my partner and I designed and implemented a downlink traffic aggregation mechanism at the IP layer to utilize both the LTE and Wi-Fi networks simultaneously. Our idea was to vary sending packets along the Wi-Fi or LTE path by calculating scores for each path. To determine these two scores, we considered the delay along each path from router to UE and the throughput of each path in real time. If the delay was low and throughput was high for a certain path, we were more likely to choose that path. Otherwise, we prioritized lower delays over higher throughputs when calculating our scores (i.e. if a path had a lower delay time but also high throughput, we would choose it over the path with higher delay time). We also resorted to Wi-Fi as the default path in the case where LTE and Wi-Fi conditions were similar. While our algorithm worked somewhat decently, there were several things we could improve upon to make it even more efficient, such as considering the traffic input bit rate measurement at the router toward LTE and Wi-Fi paths.
+Alongside this algorithm, we also had to implement in-packet ordering at the receiver side (the UE) that receives traffic from multiple networks (LTE &amp; Wi-Fi). We validated this mechanism using several different scenarios: for example, having a lost packet.</p>
+
+<p>In Project 5, I implemented and set up a simple end-to-end IoT monitoring service with a LoRa client and LoRaWAN gateway device. I simulated these devices with an emulator. The LoRa client (Mbed emulator) generated sensor data and sent it to the MQTT client, which monitored the sensor data. The LoRaWAN gateway (created through <a href="https://www.thethingsnetwork.org/">The Things Network</a>) was used for connecting the LoRa client to a server, where it could forward a real-time notification (through <a href="https://thingspeak.com/">ThingSpeak</a>) to subscribed user devices using the MQTT protocol. 
+For this project, we used activation by personalization (ABP); in a real world setting, it would be best to use over the air activation (OTAA) as it is more secure.</p>
+
+<p>Overall, the amount of knowledge I have gained from this class is insurmountable. It was a very good introduction into networking and definitely made me more interested in the field.</p>
 
 
 

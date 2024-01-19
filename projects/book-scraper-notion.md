@@ -5,7 +5,7 @@ permalink: /proj00
 ---
 The point of this project was to make my Notion library a little more easy to manage. I like to write little book reports summarizing the book I just read in my Notion. This automation code uses Playwright to scrape Goodreads, a dynamic website, for the book of your choosing. When the script runs, it asks you for a Goodreads link to scrape. Then, it creates a page in your Notion for you to fill out about the book.
 
-Here is an example of a created page in Notion after scraping Goodreads for the book "After": 
+Here is an example of a created page in Notion after scraping Goodreads for the book "After I Do" by Taylor Jenkins Reid: 
 
 ![notion-page](/assets/notion-book/page.png)
 

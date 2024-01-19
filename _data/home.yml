@@ -4,23 +4,23 @@ navbar_entries:
   - title: about
     url: about
   - title: cv
-    url: /assets/cv
+    url: /assets/cv.pdf
 
 project_entries:
   - title: Personal Website
     url: proj04
     desc: Jekyll, Github Pages, Cloudflare
-  - title: Book Scraper for Markdown Template
-    url: proj03
-    desc: Python, Selenium
-  - title: Arduino Controlled LCD Display
-    url: proj02
-    desc: C, Arduino
-    highlight: WIP
   - title: Masters Nationals Scheduling Website
     url: proj01
     highlight: WIP
     desc: Typescript, SvelteKit, Firebase
+  - title: Arduino Controlled LCD Display
+    url: proj02
+    desc: C, Arduino
+    highlight: WIP
+  - title: Book Scraper for Markdown Template
+    url: proj03
+    desc: Python, Selenium
   - title: Book Scraper for Notion Page
     url: proj00
     desc: Javascript, Playwright, Notion API
