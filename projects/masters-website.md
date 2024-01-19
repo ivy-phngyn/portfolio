@@ -11,3 +11,6 @@ So far, the project has taught me a lot about web development and database organ
 The technology stack we chose was done after expansive research as to what we wanted in the website, and what technologies could support those notions. Although starting the project was a bit daunting (I had never created a full on website before), I was prepared after a lot of documentation reading and video tutorials. 
 
 It was a lot of fun testing out new technologies with the website. Getting the website to function correctly at every step was very satisfying. While it's still a work in progress, I hope it serves its purpose and helps out the crew team! Once the website is up, I will be sure to link it.
+
+Current user view of lineups, still in process of redesign:
+![user-view](/assets/masters-prj/user-view.png)

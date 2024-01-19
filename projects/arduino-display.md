@@ -8,6 +8,8 @@ For this project, I am using an Arduino Nano 33 IoT device, along with a LCD I2C
 
 After a little bit of research, I learned that I could use the Arduino Cloud to send messages to the Arduino, and control the LCD display through that medium. The Arduino Cloud application could be used via the web or a mobile app. As of right now, I have been using this method, as it works pretty well for what I am doing. However, I would like to expand upon this project and build my own web server and client using the Arduino.
 
+![msg](/assets/arduino.jpeg)
+
 I am still in the process of developing my own program with the Arduino. Through this process, I'm learning a lot about web servers, web clients, and how these two interact. So far, I've been able to create a web server with the arduino alongside making it into a web client. The last thing I need to figure out is how to send strings over a web request so that the client actually receives a text message to display. 
 
 [Here](https://github.com/ivyngu/arduino-display) is the project code so far.

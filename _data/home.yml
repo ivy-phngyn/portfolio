@@ -4,7 +4,7 @@ navbar_entries:
   - title: about
     url: about
   - title: cv
-    url:
+    url: /assets/cv
 
 project_entries:
   - title: Personal Website
