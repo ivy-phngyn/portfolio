@@ -16,7 +16,7 @@ theme_config:
   show_education: true
   show_courses: true
   home:
-    title_projects: Portfolio
+    title_projects: Programming Projects
     title_education: Education
     title_college: University of Pennsylvania
     title_dates: August 2020 - May 2024
