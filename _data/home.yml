@@ -31,12 +31,10 @@ courses:
     desc: C++, Wireshark, NS3, MQTT, K8
   - title: Database & Information Systems
     url: cis4500
-    desc: SQL
-    highlight: WIP
+    desc: SQL, NoSQL, ER Modeling, Query Optimization
   - title: Computer & Network Security
     url: cis4510
-    desc: 
-    highlight: WIP
+    desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks (DNS, CSRF, XSS), TLS
   - title: Social Systems on the Internet
     url: nets1500
     desc: Java, Webscraping, Networking
@@ -54,8 +52,7 @@ courses:
     desc: SPSS
   - title: Senior Capstone
     url: cis4980
-    desc: Wireless Mesh Networks, TCP
-    highlight: WIP
+    desc: Technical Writing, Wireless Networks, TCP
 
 
 footer_entries:
