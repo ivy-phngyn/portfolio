@@ -1,7 +1,6 @@
 title: Ivy Nguyen
 author: Ivy Nguyen
-description: Hi there! I am currently a student at the University of Pennsylvania studying Computer Information Systems (CS) graduating May 2024. I am looking to hone my skills and knowledge in the tech industry, specifically gearing towards technical documentation. I aim to faciliate active, open communication about software processes to both end users and developers, growing as a technical writer. Thank you for visiting my page!
-url: ivyng.dev
+description: Hi there! I am currently a student at the University of Pennsylvania studying Computer Information Systems (CS) graduating May 2024. I am looking to hone my skills and knowledge in the tech industry, and am open to roles in software development and IT. Thank you for visiting my page!
 
 plugins:
   - jekyll-feed
