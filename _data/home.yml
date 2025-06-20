@@ -13,9 +13,6 @@ project_entries:
   - title: Grandfather's Blog
     url: proj06
     desc: Hugo, Github Pages, Cloudflare
-  - title: Personal Website
-    url: proj04
-    desc: Jekyll, Github Pages, Cloudflare
   - title: Masters Nationals Scheduling Website
     url: proj01
     highlight: WIP
@@ -26,6 +23,9 @@ project_entries:
   - title: Book Scraper for Markdown Template
     url: proj03
     desc: Python, Selenium
+  - title: Personal Website
+    url: proj04
+    desc: Jekyll, Github Pages, Cloudflare
   
 
 courses:
@@ -41,15 +41,15 @@ courses:
   - title: Prog Lang & Tech (I-III)
     url: cis1200
     desc: Java  
-  - title: Database & Information Systems
-    url: cis4500
-    desc: SQL, NoSQL, ER Modeling, Query Optimization
   - title: Wireless Mobile Networks & IoT
     url: cis5490
     desc: C++, Wireshark, NS3, MQTT, K8
   - title: Social Systems on the Internet
     url: nets1500
     desc: Java, Webscraping, Networking
+  - title: Database & Information Systems
+    url: cis4500
+    desc: SQL, NoSQL, ER Modeling, Query Optimization
   - title: Quantitative Analysis
     url: anth3454
     desc: SPSS
