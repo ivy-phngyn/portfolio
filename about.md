@@ -22,5 +22,3 @@ Another niche category I've really enjoyed in school is computer architecture. I
 Besides technology, I like to dabble in music production. I started learning piano when I was five, guitar when I was ten, and drums at age twenty. Now that I can form my own one woman band, I like to play around on GarageBand and see what I can come up with. 
 
 Reading has also been a big part of my life. When I got bored or upset as a child, I would escape reality through imaginary worlds. Now I read not only to experience different realities, I read to learn about others' experiences and/or scientific/psychological concepts. A new book on my shelf brings me great joy.
-
-Recently I've also started to crochet & knit, making my own creations out of yarn. While I'm still a novice, I find it very theraputic to work with my needles whenever I'm stressed or anxious about upcoming events.

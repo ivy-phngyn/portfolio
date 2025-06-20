@@ -7,37 +7,31 @@ navbar_entries:
     url: /assets/cv.pdf
 
 project_entries:
+  - title: Monitoring Stack
+    url: proj05
+    desc: Prometheus
+  - title: Grandfather's Blog
+    url: proj06
+    desc: Hugo, Github Pages, Cloudflare
   - title: Personal Website
     url: proj04
     desc: Jekyll, Github Pages, Cloudflare
   - title: Masters Nationals Scheduling Website
     url: proj01
     highlight: WIP
-    desc: Typescript, SvelteKit, Firebase
-  - title: Arduino Controlled LCD Display
-    url: proj02
-    desc: C, Arduino
-    highlight: WIP
-  - title: Book Scraper for Markdown Template
-    url: proj03
-    desc: Python, Selenium
+    desc: Typescript, SvelteKit, MSSQL
   - title: Book Scraper for Notion Page
     url: proj00
     desc: Javascript, Playwright, Notion API
+  - title: Book Scraper for Markdown Template
+    url: proj03
+    desc: Python, Selenium
+  
 
 courses:
-  - title: Wireless Mobile Networks & IoT
-    url: cis5490
-    desc: C++, Wireshark, NS3, MQTT, K8
-  - title: Database & Information Systems
-    url: cis4500
-    desc: SQL, NoSQL, ER Modeling, Query Optimization
   - title: Computer & Network Security
     url: cis4510
-    desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks (DNS, CSRF, XSS), TLS
-  - title: Social Systems on the Internet
-    url: nets1500
-    desc: Java, Webscraping, Networking
+    desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
@@ -46,7 +40,16 @@ courses:
     desc: Verilog, FPGAs
   - title: Prog Lang & Tech (I-III)
     url: cis1200
-    desc: Java
+    desc: Java  
+  - title: Database & Information Systems
+    url: cis4500
+    desc: SQL, NoSQL, ER Modeling, Query Optimization
+  - title: Wireless Mobile Networks & IoT
+    url: cis5490
+    desc: C++, Wireshark, NS3, MQTT, K8
+  - title: Social Systems on the Internet
+    url: nets1500
+    desc: Java, Webscraping, Networking
   - title: Quantitative Analysis
     url: anth3454
     desc: SPSS
