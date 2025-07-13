@@ -7,6 +7,9 @@ navbar_entries:
     url: /assets/cv.pdf
 
 project_entries:
+  - title: Phishing Email Analysis
+    url: proj07
+    desc: Email
   - title: Monitoring Stack
     url: proj05
     desc: Prometheus
