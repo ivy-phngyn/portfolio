@@ -1,6 +1,6 @@
 title: Ivy Nguyen
 author: Ivy Nguyen
-description: CS graduate looking to hone my skills and knowledge in the tech industry. Thank you for visiting my page!
+description: Current Cloud Support Engineer looking to pivot into the Information Security space. CompTIA Security+ Certified.
 
 plugins:
   - jekyll-feed
@@ -15,7 +15,7 @@ theme_config:
   show_education: true
   show_courses: true
   home:
-    title_projects: Programming Projects
+    title_projects: Projects
     title_education: Education
     title_college: University of Pennsylvania
     title_dates: August 2020 - May 2024

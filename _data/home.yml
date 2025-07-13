@@ -10,6 +10,9 @@ project_entries:
   - title: Phishing Email Analysis
     url: proj07
     desc: Email
+  - title: Wazuh SIEM
+    url: proj08
+    desc: Wazuh
   - title: Monitoring Stack
     url: proj05
     desc: Prometheus
@@ -35,6 +38,9 @@ courses:
   - title: Computer & Network Security
     url: cis4510
     desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks
+  - title: Wireless Mobile Networks & IoT
+    url: cis5490
+    desc: C++, Wireshark, NS3, MQTT, K8
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
@@ -44,9 +50,6 @@ courses:
   - title: Prog Lang & Tech (I-III)
     url: cis1200
     desc: Java  
-  - title: Wireless Mobile Networks & IoT
-    url: cis5490
-    desc: C++, Wireshark, NS3, MQTT, K8
   - title: Social Systems on the Internet
     url: nets1500
     desc: Java, Webscraping, Networking
