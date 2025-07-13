@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Phishing Email Analysis
+title: Phishing Email Investigation
 permalink: /proj07
 ---
 
@@ -165,6 +165,10 @@ Generally, when accounts are deleted, there is a timeframe where the account can
 
 When further examining the given links, they are highly suspicious. One can hover over the links, and see that they lead to the website of 'google.net-login.com.' The domain of 'net-login.com' is highly suspicious, and does not seem to be affiliated with Google. It is likely that clicking on the link would lead the email recipient to a malicious, untrustworthy website that could potentially steal their information.
 
+In order to further determine the maliciousness of this link, I created a Windows Virtual Machine on HyperV. Within this sandbox, I was able to isolate the attack and investigate what would happen were a user to click on it. Forunately (or unforunately) for me, when I proceeded to click on the link within the VM, it led to nothing. I examined network metrics alongside Task Manager within the machine as I clicked on the link, however there were no signficant differences. No attachments were downloaded. It could be that the malicious site had already been taken care of. However, it was a great learning process to be able to set up a VM and investigate within a sandbox. 
+
+![sandbox-4](/assets/phishing/email-4-sandbox.png)
+
 - Lack of Sender Details
 
 When inspecting the email header, there are no specific details. Typically, the 'Reply-To' address from an official Google email would end with the 'google.com' domain.
@@ -173,9 +177,23 @@ Once again, the 'net-login.com' domain is highly suspicious, and does not seem t
 
 Given these details, it is clear that this email is a phishing attempt meant to scare the email recipient into acting fast.
 
-### Summary
+### Summary of Analysis
 Emails #1, #2, and #3 have a lot of similarities. They offer deals that are too good to be true, are extremely generic, and contain mismatches in sender details that should raise the email recipient's concerns.
 Email #4 is incredibly advanced, and is harder to spot as a phishing email. However, after close examinination, it is clear that this is a highly dangerous email that should not be acted upon.
+
+### Next Steps
+Once it has been determined that these are phishing attempts, it is important to understand the impact of the attack.
+It would be important to investigate:
+
+- The total number of impacted employees
+- What actions were carried out by the employees that acted upon the phishing email (Did they visit a spoofed website?) 
+- What was impacted: servers, workstations, wireless devices, the network infrastructure
+
+Once we have determined who the impacted employees are, it would be best to immediately change their usernames and passwords, and consider giving them more training on how to spot phishing.
+It is also best to continue monitoring systems to determine any other unusual activity.
+
+To keep these emails from reaching end users in the future, a good next step would be to also block the sender address and domains, alongside any attachments or links contained within the email. 
+As always, holding training sessions for end users on the latest social engineering techniques would be helpful in keeping the impact of such an attack low. It would be good to simulate a phishing attack to determine which end users need the most training as well.
 
 ### What I Learned
 
@@ -186,4 +204,4 @@ From this exercise, I learned to identify the common details of phishing attempt
 - Mismatches between sender details
 - Outdated email clients in X-Header details
 
-I learned how to inspect email headers for SPF, DKIM, and DMARC policies, and closely examine the Return Path of each email. I would say that I definitely know more now on how to closely examine email details to identify phishing. I plan on continuing to grow these identification skills as phishing attacks become more advanced and nuanced.
+I learned how to inspect email headers for SPF, DKIM, and DMARC policies, and closely examine the Return Path of each email. I also learned how to use a sandbox to investigate the contents of an email, and assess its maliciousness. It is important to remember the incident response steps when a phishing attack occurs as well.
