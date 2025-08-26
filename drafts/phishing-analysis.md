@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Phishing Email Investigation
-permalink: /proj07
 ---
 
 ### Description

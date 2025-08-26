@@ -12,5 +12,6 @@ This monitoring stack is in use for 15 servers within a home environment. It was
 We would just try to access the server and realize it was down, or a user would notify us of the downtime.
 At least now we know if the servers are down, and can act on it promptly!
 
-As a next step, I am in the process of configuring Grafana to visualize the data metrics as well. It's been a very fun process so far, and I'm very glad the monitoring set up 
+I also configured Grafana to visualize the data metrics as well, which is very handy in keeping track of the history of our resources.
+It's been a very fun process so far, and I'm very glad the monitoring set up 
 can help us out with our server environment.
