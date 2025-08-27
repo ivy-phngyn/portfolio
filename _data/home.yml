@@ -7,6 +7,18 @@ navbar_entries:
     url: /assets/cv.pdf
 
 project_entries:
+  - title: Embedded Keypad
+    url: proj07
+    desc: STM32, Embedded C
+  - title: Pipeline Processor
+    url: proj08
+    desc: Verilog, FPGA
+  - title: J Compiler
+    url: proj09
+    desc: C, Makefile, Assembly
+  - title: OOP Java Games
+    url: proj10
+    desc: OOP, Java
   - title: Monitoring Stack
     url: proj05
     desc: Prometheus
@@ -29,18 +41,18 @@ project_entries:
   
 
 courses:
-  - title: Computer & Network Security
-    url: cis4510
-    desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks
-  - title: Wireless Mobile Networks & IoT
-    url: cis5490
-    desc: C++, Wireshark, NS3, MQTT, K8
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
   - title: Computer Organization & Design
     url: cis4710
     desc: Verilog, FPGAs
+  - title: Computer & Network Security
+    url: cis4510
+    desc: Software Attacks & Defenses, Encryption, Digital Signatures, Network Attacks
+  - title: Wireless Mobile Networks & IoT
+    url: cis5490
+    desc: C++, Wireshark, NS3, MQTT, K8
   - title: Prog Lang & Tech (I-III)
     url: cis1200
     desc: Java  
