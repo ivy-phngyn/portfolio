@@ -19,9 +19,6 @@ project_entries:
   - title: OOP Java Games
     url: proj10
     desc: OOP, Java
-  - title: Monitoring Stack
-    url: proj05
-    desc: Prometheus
   - title: Grandfather's Blog
     url: proj06
     desc: Hugo, Github Pages, Cloudflare
@@ -29,18 +26,21 @@ project_entries:
     url: proj01
     highlight: WIP
     desc: Typescript, SvelteKit, MSSQL
+  - title: Monitoring Stack
+    url: proj05
+    desc: Prometheus
   - title: Book Scraper for Notion Page
     url: proj00
     desc: Javascript, Playwright, Notion API
-  - title: Book Scraper for Markdown Template
-    url: proj03
-    desc: Python, Selenium
   - title: Personal Website
     url: proj04
     desc: Jekyll, Github Pages, Cloudflare
   
 
 courses:
+  - title: Embedded Systems & Microcontrollers
+    url: ese3500
+    desc: STM32, MCU
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
@@ -62,9 +62,6 @@ courses:
   - title: Database & Information Systems
     url: cis4500
     desc: SQL, NoSQL, ER Modeling, Query Optimization
-  - title: Quantitative Analysis
-    url: anth3454
-    desc: SPSS
   - title: Senior Capstone
     url: cis4980
     desc: Technical Writing, Wireless Networks, TCP
