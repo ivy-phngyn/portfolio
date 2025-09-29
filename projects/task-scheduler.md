@@ -8,6 +8,8 @@ Processor: ARM Cortex M4
 
 MCU: STM32F4 Discovery Board
 
+Code can be found [here](https://github.com/ivy-phngyn/task-scheduler).
+
 In this project, I wrote a task scheduler that schedules multiple user tasks in a round-robin fashion by carrying out a context switch operation.
 The user tasks in this case were toggling LED lights on and off on the board.
 
@@ -68,6 +70,3 @@ In order to successfully complete this, I learned how to:
 
 Overall, I felt like I truly learned so much from this project. I now have a much deeper understanding of the build process of a program, and processor exceptions.
 I appreciated the stack memory manipulation, and sharpening my ARM assembly reading skills.
-
-Code can be found [here](https://github.com/ivy-phngyn/task-scheduler)
-
