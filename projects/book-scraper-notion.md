@@ -9,7 +9,7 @@ Here is an example of a created page in Notion after scraping Goodreads for the 
 
 ![notion-page](/assets/notion-book/page.png)
 
-You will have to input your Notion credentials and create an integration key to use this script. I detail this process in the README.txt file within the [GitHub repository](https://github.com/ivyngu/book-scraper), if you would like to use it. It isn't a hard process, but it can be confusing for sure. Please reach out with any questions via the repo on GitHub!
+You will have to input your Notion credentials and create an integration key to use this script. I detail this process in the README.txt file within the [GitHub repository](https://github.com/ivy-phngyn/book-scraper), if you would like to use it. It isn't a hard process, but it can be confusing for sure. Please reach out with any questions via the repo on GitHub!
 
 Honestly, this project was really just for fun. I use it every time I finish a new book, so it does not go unused. I think it truly does save me time when writing my reports: no longer do I have to double check the author's name, or grab the book cover from Google. It was a chance for me to practice using APIs within my code, and I definitely learned a lot in the process. I found reading the documentation to be super helpful in developing this script, alongside understanding the layout of a website. 
 

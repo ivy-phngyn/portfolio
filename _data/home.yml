@@ -7,9 +7,12 @@ navbar_entries:
     url: /assets/cv.pdf
 
 project_entries:
+  - title: Task Scheduler
+    url: proj11
+    desc: ARM, Embedded C
   - title: Embedded Keypad
     url: proj07
-    desc: STM32, Embedded C
+    desc: STM32F4, Embedded C
   - title: Pipeline Processor
     url: proj08
     desc: Verilog, FPGA
@@ -41,6 +44,9 @@ courses:
   - title: Embedded Systems & Microcontrollers
     url: ese3500
     desc: STM32, MCU
+  - title: ARM Cortex-M3/M4 Processor Programming
+    url: cis4980
+    desc: C, ARM, OpenOCD, Build Tools
   - title: Intro to Computer Systems
     url: cis2400
     desc: C, Assembly
@@ -62,9 +68,6 @@ courses:
   - title: Database & Information Systems
     url: cis4500
     desc: SQL, NoSQL, ER Modeling, Query Optimization
-  - title: Senior Capstone
-    url: cis4980
-    desc: Technical Writing, Wireless Networks, TCP
 
 
 footer_entries:
